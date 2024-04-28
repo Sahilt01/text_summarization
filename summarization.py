@@ -73,7 +73,7 @@ def generate_summary(file_path, num_sentences):
         return summary
 
 def main():
-    st.title("SEMANTIC HARMONY DOCUMENT SUMMARIZER")
+    st.title("Semantic Harmony Document Summarizer")
 
     # File uploader
     uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
