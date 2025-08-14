@@ -10,7 +10,7 @@ from heapq import nlargest
 from transformers import pipeline
 import re
 import os
-pip install pdfplumber python-docx transformers torch
+!pip install pdfplumber python-docx transformers torch
 python -m nltk.downloader punkt stopwords wordnet
 
 # Download NLTK resources
